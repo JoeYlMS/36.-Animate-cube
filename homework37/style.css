@@ -1,0 +1,77 @@
+.container {
+  max-width: 1200px;
+  padding: 20px 20px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+form {
+  padding: 20px 10px;
+  border: 1px solid black;
+  background-color: lightblue;
+  margin: 0 0 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+form h3 {
+  margin: 5px 0;
+}
+form input {
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+}
+form textarea {
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+  resize: none;
+}
+form select {
+  width: 30%;
+}
+form button {
+  width: 40%;
+}
+
+.error {
+  background-color: lightcoral;
+}
+
+.response {
+  text-align: center;
+}
+
+.empty {
+  font-size: 36px;
+}
+
+.post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: gray 1px solid;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+  background-color: cadetblue;
+  color: #ffffff;
+}
+.post h3 {
+  width: 100%;
+}
+.post .post_id {
+  width: 30%;
+}
+.post .post_body {
+  width: 50%;
+}
+.post .post_user_id {
+  width: 15%;
+}
+
+/*# sourceMappingURL=style.css.map */
