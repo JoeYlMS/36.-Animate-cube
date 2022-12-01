@@ -1,0 +1,16 @@
+const myObjectAssign = (...arr) => {
+    let res={};
+    arr.forEach(el=> {
+        res = {
+            ...res,
+            ...el
+        }
+    })
+
+
+    return res
+}
+
+console.log(myObjectAssign({ a: 1 })); // { a: 1 }
+console.log(myObjectAssign({ a: 1 }, { b: 2 })); // { a: 1, b: 2 }
+console.log(myObjectAssign({ a: 1, b: 2 }, { b: 3 }, { a: 4, c: 5 })); // { a: 4, b: 3, c: 5 }
